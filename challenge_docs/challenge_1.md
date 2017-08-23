@@ -15,7 +15,7 @@ Once you have Django installed navigate to your project directory in the command
 
 django-admin startproject LouiePizza
 
-![Django Start](https://github.com/AlexHagerman/code_louisville_django/project_screenshots/challenge_1.1.png)
+![Django Start](https://github.com/AlexHagerman/code_louisville_django/challenge_docs/project_screenshots/challenge_1.1.png)
 
 In your python project directory you should now see a django project directory called LouiePizza and a manage.py file. Your LouiePizza project folder should have a subfolder named LouiePizza as well as some key Python files:
 
@@ -26,4 +26,4 @@ In your python project directory you should now see a django project directory c
 
 Finally lets start the built in Django web server and make sure you can access your site locally.
 
-![Django Hello](https://github.com/AlexHagerman/code_louisville_django/project_screenshots/challenge_1.2.png)
+![Django Hello](https://github.com/AlexHagerman/code_louisville_django/challenge_docs/project_screenshots/challenge_1.2.png)
