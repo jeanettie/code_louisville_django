@@ -18,7 +18,7 @@ And to exit the pipenv shell:
     exit
 And you will be in a shell in your virtual environment for that project.
 
-# Setup project
+# Django project setup
 The official Django documentation can be found here:
 https://docs.djangoproject.com/en/1.11/
 
