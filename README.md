@@ -3,7 +3,7 @@ Basic Django Project for the Fall 2017 Python Cohort serving the site from FEWD 
 
 For the original FEWD project see https://github.com/CodeLouisville/May2017-FEWD-Class-Project
 
-#Setup Python:
+# Setup Python:
 https://www.python.org/downloads/
 For Linux/MacOS you can use apt/yum or brew to install also.
 
@@ -18,7 +18,7 @@ And to exit the pipenv shell:
     exit
 And you will be in a shell in your virtual environment for that project.
 
-#Setup project
+# Setup project
 The official Django documentation can be found here:
 https://docs.djangoproject.com/en/1.11/
 
@@ -48,14 +48,14 @@ Finally lets start the built in Django web server and make sure you can access y
 
     python manage.py runserver
 
-##Additional information and project updates will occur as the Fall Python Cohort progresses.
+## Additional information and project updates will occur as the Fall Python Cohort progresses.
 
-#Running the project
+# Running the project
 If you just want to run the project (assuming Python is on your system and pipenv) in your terminal:
 
     git clone https://github.com/AlexHagerman/code_louisville_django.git
     cd code_louisville_django
-    pipenv install Pipfile
+    pipenv install
     cd LouiePizza
     pipenv shell
     python manage.py migrate
