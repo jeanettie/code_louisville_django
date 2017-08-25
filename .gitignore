@@ -102,3 +102,6 @@ ENV/
 
 #vscode settings
 .vscode/
+
+#migrations
+migrations/
