@@ -21,8 +21,10 @@ from . import views
 
 urlpatterns = [
     url(r'^newsletters/', include('Newsletters.urls')),
+    url(r'^menus/', include('Menus.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index),
+    url(r'^home/', views.index),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
