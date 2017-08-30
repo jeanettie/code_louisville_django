@@ -14,20 +14,21 @@ The Menu should be populated via Django models and categories/menu items should 
 
 Finally the contact page will not be available and will be setup at a later time using Django Forms.
 
-## Setup Python:
+# Setup Python:
 https://www.python.org/downloads/
 For Linux/MacOS you can use apt/yum or brew to install also.
 
 I would highly recommend using virtual environments for your python projects. To make that easy you can:
 
-    pip install pipenv
-The first time you do a pip install in your project directory pipenv will check for a virtualenv and create one of it is absent. To activate the virtual environment in your console enter:
+    pip virtualenv env
 
-    pipenv shell
-And to exit the pipenv shell:
+To activate the virtual environment in your console enter:
 
-    exit
-And you will be in a shell in your virtual environment for that project.
+    activate env or source activate env
+
+And to deactivate:
+
+    deactivate or source deactivate
 
 ## Django project setup
 The official Django documentation can be found here:
@@ -61,23 +62,14 @@ Finally lets start the built in Django web server and make sure you can access y
 
 You are now ready to take what you have learned from the Django Treehouse modules and convert the FEWD content to be served via the Django backend.
 
-# Solution
-In your parent Django Directory you should begin by creating two templates one for all pages to inherit from including the header and footer, and one for the homepage.
-
-Next following the Django app model we can create a Menus and Newsletters app for us to handle Louie Pizza's menu and newsletter.
-
-Within the Menus
-
-Within the Newsletters
-
-# Running the solution project
-If you just want to run the project (assuming Python is on your system and pipenv) in your terminal:
+# Running the project
+If you just want to run the project (assuming Python is on your system and virtualenv) in your terminal:
 
     git clone https://github.com/AlexHagerman/code_louisville_django.git
     cd code_louisville_django
-    pipenv install
-    cd LouiePizza
-    pipenv shell
+    virtualenv env
+    activate env
+    pip install -r requirements.txt
     python manage.py migrate
     python manage.py runserver
 
@@ -86,4 +78,3 @@ When you are ready to shutdown the server and exit the environment:
 
     ctrl+c
     exit
-
